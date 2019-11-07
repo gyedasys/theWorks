@@ -1,0 +1,88 @@
+
+/* 
+    Document   : index
+    Created on : Jan 06, 2013, 12:43:14 AM
+    Author     : damut
+    Description:
+        layout of index template of theWorks Co.
+*/
+
+root { 
+    display: block;
+}
+
+/*page style*/
+body{background: lightgrey; font-family: "verdana","helvetica", sans-serif; font-size: .9em; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; min-width: 900px}
+div{background: white; font-family: "verdana","helvetica", sans-serif; font-size: .9em; margin-left: auto; margin-right: auto; padding-top: 0px; margin-top: 0px; max-width: 1000px; min-width: 700px}
+
+/*logo head*/
+.damut{min-width: 800px; max-width: 1000px; height: 130px; background-image: url(../icons/theworkshead.jpg); margin-top: 0px; margin-left: auto; margin-right: auto; border-radius: 0px;}
+
+/*navigation style*/		
+.toc{background: orange; color: black;  font-family: "verdana","helvetica",sans-serif; font-size: 0.9em; text-decoration: none; padding-left: 5px;
+     padding-right: 5px; padding-top: 5px; margin-right: auto; margin-left: auto; margin-top: 0px; min-width: 800px; max-width: 1000px; height: 20px; border-radius: 0px; text-align: center}
+/*links to pages style*/
+a:link.pages{color: black; text-decoration: none; padding-bottom: 2px; padding-right: 10px; padding-left: 10px}
+a:visited.pages{font-weight: normal; color: green; padding-bottom: 2px; padding-right: 10px; padding-left: 10px}
+a:active.pages{color: lightblue; text-decoration: none; padding-bottom: 2px; padding-right: 10px; padding-left: 10px}
+a:hover.pages{color: lightblue; text-decoration: none; padding: 0px; padding-bottom: 2px; padding-right: 10px; padding-left: 10px}
+
+.oneCont{background-color: none; color: white; font-family: "verdana","helvetica",sans-serif; font-size: 1.0em;
+       width: 1000px; height: 30px; margin-left: auto; margin-right: auto; padding-left: 0px; padding-right: 0px; border-radius: 0px;
+       border: 0px; border-color: palegreen; border-style: solid; text-justify: auto}
+/*search component style*/
+.searchme{background: white; color: black; font-size: .9em; padding-bottom: 0px; margin-right: 0px; padding-top: 0px; min-width: 70px; max-width: 190px; height: 18px; border: 1px;
+        border-radius: 3px; border-color: orange; padding-left: 2px; padding-right: 2px; border-style: solid; position: absolute; margin-left: 60px; margin-top: 7px}
+.searchDiv{background: none; color: black; font-size: .9em; padding-bottom: 0px; margin-left: 50px; margin-right: 0px; margin-top: 10px; padding-top: 0px; min-width: 150px;
+        max-width: 200px; height: 15px; border-radius: 5px; padding-left: 0px; padding-right: 0px; position: absolute;}
+.buttons{background-color: orange; color: black; font-family: "helvetica", "verdana",sans-serif; font-size: 1.0em; text-align: center;  font-weight: bold;
+        padding-left: 2px; padding-right: 2px; border-radius: 3px; position: absolute; top: 5px; margin-left: 210px}
+/*social media style*/
+.social{background: none; color: gray; font-size: .8em; padding-bottom: 0px; margin-left: 780px;  margin-top: 15px; margin-right: 0px;             
+        padding-top: 0px; min-width: 120px; max-width: 300px; height: 15px; border-radius: 0px; padding-left: 2px; 
+        padding-right: 2px; border-radius: 0px; position: absolute}
+.soc{color: orange; text-decoration: none; font-family: "verdana","helvetica", sans-serif; font-size: .9em; padding-top: 0px; width: 20px; height: 20px; position: absolute; top: 0px}
+.ads{color: orange; text-decoration: none; font-family: "verdana","helvetica", sans-serif; font-size: .9em; padding-top: 0px; width: 20px; margin-top: 15px; margin-left: 0px; height: 20px;}
+		
+/*page content style*/
+.orange{color: orange; font-family: "helvetica", "verdana", sans-serif; font-size: 2.6em; text-align: left; margin-top: 25px; margin-left: 15px; margin-right: 5px; padding-left: 15px;
+      padding-right: 15px; text-justify:auto; border-radius: 0px}
+.white{color: black; font-family: "helvetica", "verdana", sans-serif; font-size: 1.5em; text-align: left; margin-top: 2px; margin-left: 2px; margin-right: 2px; padding-left: 15px;
+        padding-right: 15px; text-justify:auto; border-radius: 0px}
+.lightblue{color: white; font-family: "helvetica", "verdana", sans-serif; font-size: 1.2em; text-align: left; margin-top: 5px; margin-left: 2px; margin-right: 2px; padding-left: 5px;
+           padding-right: 10px; text-justify:auto; border-radius: 0px}
+.twoCont{background: none; color: gray;  font-family: "verdana","helvetica", sans-serif; font-size: .9em; min-width: 850px; max-width: 1000px; height: 500px; margin-left: 5px;
+         margin-right: 5px; padding-left: 5px; padding-right: 5px; margin-top: 2px; padding-top: 0px; text-justify: auto}
+/*text section*/
+.details{background-color: white; color: black; font-family: "verdana","helvetica",sans-serif; font-size: 1.0em; margin-top: 10px;
+       min-width: 330px; max-width: 550px; height: 460px; margin-left: 20px; margin-right: 5px; padding-left: 5px; padding-right: 5px; text-align: center;
+       border: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-color: grey; border-style: solid; text-justify: auto; 
+       border-top: 0px; border-bottom: 0px; border-right: 0px; position: absolute}
+/*image section*/
+.images{background: none; font-family: "verdana","helvetica",sans-serif; font-size: 1.2em; margin-top: 90px;
+       min-width: 200px; max-width: 350px; height: 430px; margin-left: 575px; margin-right: 2px; padding-left: 2px; padding-right: 2px; text-align: left;
+       position: absolute}
+.image{ padding-left: 1px; padding-right: 1px; margin-left: 5px; margin-top: 5px; position: absolute}
+
+/*information section*/
+.infoSec{background-color: orange; color: black; font-family: "verdana","helvetica",sans-serif; font-size: 1.0em; margin-top: 50px; margin-left: auto;
+       min-width: 700px; max-width: 1000px; height: 240px; margin-right: auto; padding-left: 5px; padding-right: 5px; border: 0px; border-radius: 0px; 
+	   border-color: white; border-left: 0px; border-style: solid; border-top-left-radius: 0px; border-bottom-left-radius: 0px; text-justify: auto}
+.service{background-color: orange; color: black; font-family: "verdana","helvetica",sans-serif; font-size: 1.0em; margin-top: 10px; margin-left: 10px;
+       min-width: 300px; max-width: 350px; height: 180px; margin-right: 2px; padding-left: 10px; padding-right: 10px; border: 0px; border-radius: 0px; 
+	   border-color: black; border-right: 1px; border-style: solid; border-top-left-radius: 0px; text-justify: auto; position: absolute}
+.howto{background-color: orange; color: black; font-family: "verdana","helvetica",sans-serif; font-size: 1.0em; margin-top: 10px; margin-left: 335px;
+       min-width: 300px; max-width: 350px; height: 180px; margin-right: 2px; padding-left: 10px; padding-right: 10px; border: 0px; border-radius: 0px; 
+	   border-color: black; border-right: 1px; border-style: solid; border-top-left-radius: 0px; text-justify: auto; position: absolute}
+.tour{background-color: orange; color: black; font-family: "verdana","helvetica",sans-serif; font-size: 1.0em; margin-top: 10px; margin-left: 664px;
+       min-width: 300px; max-width: 350px; height: 180px; margin-right: 2px; padding-left: 10px; padding-right: 10px; border: 0px; border-radius: 0px; 
+	   border-color: black; border-right: 0px; border-style: solid; border-top-left-radius: 0px; text-justify: auto; position: absolute}
+p{ color: black; font-family: "helvetica", "verdana", sans-serif; font-size: 0.9em; text-align: left; margin-top: 20px; margin-left: 5px; margin-right: 5px; text-justify:auto}
+/*copyright div style*/
+.copyright{background: orange; text-decoration: none; color: black; font-family: "verdana","helvetica",sans-serif; font-size: .9em; margin-left: 25px; margin-right: 5px;
+        margin-top: 215px; padding-left: 5px; padding-right: 5px; width: 450px; height: 10px; text-align: left; position: absolute}
+/*privacy section*/
+.copy{background: orange; color: black; font-size: .9em; padding-bottom: 0px;  padding-top: 0px; margin-top: 195px; margin-left: 670px;
+      margin-right: 0px; min-width: 200px; max-width: 275px; height: 10px; text-decoration: none;  position: absolute;}
+.legal{text-decoration: none; color: black; font-family: "verdana","helvetica",sans-serif; font-size: .9em; margin-left: 0px; margin-right: 0px;
+        padding-left: 2px; padding-right: 2px;}
